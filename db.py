@@ -1,10 +1,10 @@
 '''
 Author: 木白广木林
 Date: 2024-05-16 16:47:37
-LastEditTime: 2024-05-17 10:16:08
+LastEditTime: 2024-05-17 11:47:21
 LastEditors: 木白广木林
 Description: None
-FilePath: \Desktop\db.py
+FilePath: \序列号重复检测\db.py
 检查自己的代码是非常愚蠢的行为，这是对本身实力的不信任。
 '''
 import tkinter as tk
@@ -27,7 +27,7 @@ root.title("序列号检查程序")
 # 创建标签和输入框
 label = tk.Label(root, text="请输入6位数字及英文序列号：")
 label.pack()
-entry = tk.Entry(root, width=20)
+entry = tk.Entry(root, width=100)
 entry.pack()
 
 def check_serial_number():
